@@ -1,0 +1,90 @@
+body {
+    line-height: 1.6;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: #6F8BA4;
+    font-weight: 400;
+  }
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+    font-family: "Exo", sans-serif;
+    font-weight: 700;
+    color: #222;
+  }
+
+/* Header */
+
+.header-top-bar{
+    background: #223a66;
+    font-size: 14px;
+    padding: 10px 0px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    color: #fff;
+}
+
+.banner {
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    background: url("../images/banner/3.png") no-repeat;
+    background-size: cover;
+    min-height: 550px;
+  }
+
+.btn-primary {
+    color: #212529;
+    background-color: #E12454;
+    border-color: white;
+    /* border: 3px solid white; */
+    color:white;
+    font-size:25px;
+    }
+
+.btn-primary:hover{
+    color: #212529;
+    background-color: #223A66;
+    border-color: white;
+    /* border: 3px solid white; */
+    color:white;
+    }
+
+.top-bar-info li a {
+     color: #fff;
+    margin-right: 20px;
+    text-decoration: none;
+    }
+
+
+ /* Login Form */
+
+.global-container{
+         height:100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+    
+.card-title{ 
+        font-weight:300; 
+}
+    
+.btn{
+        font-size: 14px;
+        margin-top:20px;
+}
+    
+    
+.login-form{ 
+        width:400px;
+        margin:20px;
+}
+    
+.sign-up{
+        text-align:center;
+        padding:20px 0 0;
+}
+    
+
+.page-title{
+        margin-top: 70px;
+}
