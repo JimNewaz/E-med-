@@ -1,13 +1,10 @@
 <?php
 session_start();
-include("includes/config.php");
- $_SESSION['login']=="";
+$_SESSION['alogin']=="";
 session_unset();
-
-// session_destroy();
-
+//session_destroy();
+// $_SESSION['errmsg']="You have successfully logout";
 ?>
-
 <script language="javascript">
-    document.location="index.php";
+document.location="index.php";
 </script>
